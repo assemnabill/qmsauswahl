@@ -1,6 +1,17 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}%
-\contentsline {section}{\numberline {2}Hauptteil}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Definitionen, bekanntes Wissen}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}wissenschaftlicher Beitrag}{4}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Schluss}{5}{section.3}%
+\contentsline {section}{\numberline {1}Allgemeines Verfahren für die Softwareauswahl}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Gängige Ansätze}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Allgemeine Kriterien}{4}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Kriterium/Kategorie A}{4}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Kriterium/Kategorie B}{4}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Kriterium/Kategorie C}{5}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Kriterium/Kategorie D}{5}{subsubsection.1.2.4}%
+\contentsline {section}{\numberline {2}Softwareauswahl im Bezug auf QMS}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Verantwortung vom QMS und häufigste Anwendungsbereiche}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Spezifische Kriterien für die Auswahl eines QMS}{7}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Kriterium/Kategorie A}{7}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Kriterium/Kategorie B}{8}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Kriterium/Kategorie C}{8}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Kriterium/Kategorie D}{9}{subsubsection.2.2.4}%
+\contentsline {section}{\numberline {3}Fazit}{9}{section.3}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
