@@ -1,49 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: QMSAuswahl.aux
-The style file: alpha.bst
-Database file #1: References.bib
-Warning--entry type for "gross2017professionelle" isn't style-file defined
---line 1 of file References.bib
-You've used 1 entry,
-            2543 wiz_defined-function locations,
-            564 strings with 4658 characters,
-and the built_in function-call counts, 340 in all, are:
-= -- 29
-> -- 19
-< -- 0
-+ -- 6
-- -- 6
-* -- 19
-:= -- 63
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 10
-empty$ -- 26
-format.name$ -- 7
-if$ -- 67
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 3
-pop$ -- 10
-preamble$ -- 1
-purify$ -- 7
-quote$ -- 0
-skip$ -- 15
-stack$ -- 0
-substring$ -- 7
-swap$ -- 1
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 8
-warning$ -- 0
-while$ -- 3
-width$ -- 2
-write$ -- 12
-(There was 1 warning)
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'QMSAuswahl.blg'
+[36] biber:340> INFO - === Do Feb 17, 2022, 21:33:49
+[43] Biber.pm:415> INFO - Reading 'QMSAuswahl.bcf'
+[77] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[84] Biber.pm:4340> INFO - Processing section 0
+[89] Biber.pm:4531> INFO - Looking for bibtex format file 'References.bib' for section 0
+[89] bibtex.pm:1689> INFO - LaTeX decoding ...
+[93] bibtex.pm:1494> INFO - Found BibTeX data source 'References.bib'
+[131] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[131] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[131] Biber.pm:4168> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[131] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
+[135] bbl.pm:654> INFO - Writing 'QMSAuswahl.bbl' with encoding 'UTF-8'
+[136] bbl.pm:757> INFO - Output to QMSAuswahl.bbl
