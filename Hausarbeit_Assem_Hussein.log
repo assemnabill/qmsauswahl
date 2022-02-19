@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  19 FEB 2022 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  19 FEB 2022 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,12 +931,17 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `Hausarbeit_Assem_Hussein.toc'.
 
- [2] [3] [4] [5] [6] [7] [8] [9]
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+
+ []
+
+[3] [4] [5] [6] [7] [8] [9] [10]
 ! Misplaced alignment tab character &.
 <argument> Total Quality Management &
                                       Business Excellence
-l.162 
-      
+l.166 \end
+          {document}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -945,23 +950,23 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (42.15703pt too wide) in paragraph at lines 162--162
+Overfull \hbox (44.59065pt too wide) in paragraph at lines 166--166
 []\T1/lmr/m/n/10.95 Michael Be-rens-mann und Mar-kus Gratz-feld. \T1/lmr/m/it/1
 0.95 An-for-de-run-gen für die CE-Kennzeichnung
  []
 
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-61.
+65.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
 
 (./Hausarbeit_Assem_Hussein.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `Hausarbeit_Assem_Hussein.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -970,10 +975,10 @@ Package logreq Info: Writing requests to 'Hausarbeit_Assem_Hussein.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19514 strings out of 480608
- 353800 string characters out of 5903630
- 1164537 words of memory out of 5000000
- 35080 multiletter control sequences out of 15000+600000
+ 19531 strings out of 480608
+ 354340 string characters out of 5903630
+ 1164691 words of memory out of 5000000
+ 35093 multiletter control sequences out of 15000+600000
  582450 words of font info for 55 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  48i,7n,55p,10148b,2193s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -984,10 +989,10 @@ ist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
 ype1/public/lm/lmri10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
 c/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmt
 t10.pfb>
-Output written on Hausarbeit_Assem_Hussein.pdf (10 pages, 185153 bytes).
+Output written on Hausarbeit_Assem_Hussein.pdf (11 pages, 194886 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
  134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
