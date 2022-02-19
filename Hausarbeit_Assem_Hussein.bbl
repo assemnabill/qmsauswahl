@@ -1,0 +1,165 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{ali2018integration}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f636977f20aacf38234de12090ad8717}{%
+           family={Alič},
+           familyi={A\bibinitperiod},
+           given={Milena},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f636977f20aacf38234de12090ad8717}
+      \strng{fullhash}{f636977f20aacf38234de12090ad8717}
+      \strng{bibnamehash}{f636977f20aacf38234de12090ad8717}
+      \strng{authorbibnamehash}{f636977f20aacf38234de12090ad8717}
+      \strng{authornamehash}{f636977f20aacf38234de12090ad8717}
+      \strng{authorfullhash}{f636977f20aacf38234de12090ad8717}
+      \field{labelalpha}{Ali18}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Total Quality Management & Business Excellence}
+      \field{number}{9/10}
+      \field{title}{Integration of the ISO 9001 QMS with the company’s IT business system.}
+      \field{volume}{29}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{berensmann2018anforderungen}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=841d9c1f072db4f801c38eeaa0a2b33b}{%
+           family={Berensmann},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=46faaf7194c502194c8637f9e3b5be45}{%
+           family={Gratzfeld},
+           familyi={G\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bcb23a2adce971f2622b1653a8799ae}
+      \strng{fullhash}{0bcb23a2adce971f2622b1653a8799ae}
+      \strng{bibnamehash}{0bcb23a2adce971f2622b1653a8799ae}
+      \strng{authorbibnamehash}{0bcb23a2adce971f2622b1653a8799ae}
+      \strng{authornamehash}{0bcb23a2adce971f2622b1653a8799ae}
+      \strng{authorfullhash}{0bcb23a2adce971f2622b1653a8799ae}
+      \field{labelalpha}{BG18}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz}
+      \field{number}{3}
+      \field{title}{Anforderungen für die CE-Kennzeichnung von Apps und Wearables. (German)}
+      \field{volume}{61}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{gross2017professionelle}{online}{}
+      \name{author}{2}{}{%
+        {{hash=957fb54f80843b44a98770cd10f256e9}{%
+           family={Groß},
+           familyi={G\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f1a01f0fd3f7979484aed7c9426c5270}{%
+           family={Pfennig},
+           familyi={P\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \strng{namehash}{9d480042d764c5246697a7b476aa694c}
+      \strng{fullhash}{9d480042d764c5246697a7b476aa694c}
+      \strng{bibnamehash}{9d480042d764c5246697a7b476aa694c}
+      \strng{authorbibnamehash}{9d480042d764c5246697a7b476aa694c}
+      \strng{authornamehash}{9d480042d764c5246697a7b476aa694c}
+      \strng{authorfullhash}{9d480042d764c5246697a7b476aa694c}
+      \field{labelalpha}{GP17}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st ed. 2017}
+      \field{isbn}{9783658147273}
+      \field{title}{Professionelle Softwareauswahl und -einführung in der Logistik : Leitfaden von der Prozessanalyse bis zur Einsatzoptimierung}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-658-14727-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-658-14727-3
+      \endverb
+    \endentry
+    \entry{teich2008richtige}{online}{}
+      \name{author}{3}{}{%
+        {{hash=6e275cb170d2deda672d94e6b0f07b88}{%
+           family={Teich},
+           familyi={T\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=1de323ae4b815aa6e7302fee67f8529e}{%
+           family={Kolbenschlag},
+           familyi={K\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c7183eae546f34d3bb3e5ff36ff2fc8d}{%
+           family={Reiners},
+           familyi={R\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \strng{namehash}{bd846e1deaaf71f6831571ac68ce1277}
+      \strng{fullhash}{bd846e1deaaf71f6831571ac68ce1277}
+      \strng{bibnamehash}{bd846e1deaaf71f6831571ac68ce1277}
+      \strng{authorbibnamehash}{bd846e1deaaf71f6831571ac68ce1277}
+      \strng{authornamehash}{bd846e1deaaf71f6831571ac68ce1277}
+      \strng{authorfullhash}{bd846e1deaaf71f6831571ac68ce1277}
+      \field{labelalpha}{TKR08}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st ed. 2008}
+      \field{isbn}{9783540712626}
+      \field{title}{Der richtige Weg zur Softwareauswahl : Lastenheft, Pflichtenheft, Compliance, Erfolgskontrolle}
+      \field{year}{2008}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-540-71262-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-540-71262-6
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
