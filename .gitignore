@@ -6,4 +6,5 @@
 *.out
 *.xml
 *.toc
+*.synctex.gz
 
