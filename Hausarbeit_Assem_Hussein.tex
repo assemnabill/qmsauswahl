@@ -14,7 +14,7 @@
 
 \documentclass[11pt]{scrartcl}       % KOMA-Skript für Artikel
 \RequirePackage{filecontents}
-
+\usepackage{color,soul}
 %% Präambel
 \usepackage[english, ngerman]{babel} % deutsche typogr. Regeln + Trenntabelle
 \usepackage[T1]{fontenc}             % interner TeX-Font-Codierung
@@ -76,7 +76,7 @@ sorting=anyt 			% sort by alphabetic label, name, year, title
 \newpage
 
 \section{Einleitung}
-Die Auswahl eines wirksamen QMS ist eine nicht triviale Herausforderung, die einen besonderen Ansatz erfordert. Immer mehr Organisationen streben täglich danach, ein QMS einzuführen und sich zertifizieren zu lassen. Heute übersteigt die Zahl der zertifizierten QMS 1,5 Millionen \cite{Leontyuk_2019}. Ein solch gravierender Trend muss sich bei der Erfüllung der gesetzlichen Anforderungen als wirksam erwiesen haben und gleichzeitig die Kundenzufriedenheit erhöhen, was wiederum zu höheren Gewinnen führt.
+Die Auswahl eines wirksamen QMS\footnote{QMS wird näher definiert in Paragraph 3.1 } ist eine nicht triviale Herausforderung, die einen besonderen Ansatz erfordert. Immer mehr Organisationen streben täglich danach, ein QMS einzuführen und sich zertifizieren zu lassen. Heute übersteigt die Zahl der zertifizierten QMS 1,5 Millionen \cite{Leontyuk_2019}. Ein solch gravierender Trend muss sich bei der Erfüllung der gesetzlichen Anforderungen als wirksam erwiesen haben und gleichzeitig die Kundenzufriedenheit erhöhen, was wiederum zu höheren Gewinnen führt.
 \\
 \\
 Hierbei werden allgemeine Verfahren für die Softwareauswahl vorgestellt und die Hauptkriterien der Softwareauswahl erläutert. Insbesondere werden die wesentlichen Kriterien für die Auswahl eines QMS im Detail betrachtet.
@@ -120,60 +120,55 @@ TODO
 \newpage
 \section{Was ist ein QMS?}
 \subsection{Definition und Anwendungsgebiet}
-Ein Qualitätsmanagementsystem (kurz: QMS) ist eine Methode der Unternehmensführung. Ziel ist ein systematisches Qualitätsmanagement. Bei der Einführung muss das QMS gezielt auf das Produkt oder die erbrachte Dienstleistung zugeschnitten sein, d. h. es ist wichtig, dass es den Anforderungen des Betriebs gerecht wird. Um jedoch eine korrekte Umsetzung zu gewährleisten, gibt es einige allgemeine Richtlinien in Form der ISO 9001:2015 \cite{normungsinstitut2009qualitatsmanagementsysteme}, die helfen sollen, die Implementierung eines QMS zu standardisieren. Das am weitesten verbreitete Modell ist ein QMS, dessen Anforderungen
-und Empfehlungen in der internationalen Norm ISO 9000 beschrieben sind \cite{sytko2017instrumentation}. 
-\\
-\\
-Gemäß ISO 9000:2015 \cite{din20059000} wird das QMS wie folgt definiert:\
+Ein Qualitätsmanagementsystem (kurz: QMS) ist eine Methode der Unternehmensführung, die als Werkzeug zur Qualitätssicherung dient. Ziel ist ein systematisches Qualitätsmanagement durch klare Zielsetzung und effizientes Steuern von Prozessen und Ressourcen. Das soll sicherstellen, dass die Interessen aller beteiligten Parteien (vor allem Kunden) verwirklicht werden. Auf ähnliche Weise erläutert \citeauthor{mai2020grundlage} in \citeyear{mai2020grundlage}, was ein QMS ist:
+
 \begin{quotation}
-„Ein QM-System umfasst Tätigkeiten, mit denen die Organisation ihre Ziele ermittelt und die Prozesse und Ressourcen bestimmt, die zum Erreichen der gewünschten Ergebnisse erforderlich sind. Das QMS führt und steuert in Wechselwirkung stehende Prozesse und Ressourcen, die erforderlich sind, um Wert zu schaffen und die Ergebnisse für relevante interessierte Parteien zu verwirklichen.“
+„Der Begriff des Qualitätsmanagementsystems umfasste die wiederkehrenden und regelmäßigen Tätigkeiten zum Führen und Steuern eines Unternehmens hinsichtlich der Befriedigung von Bedürfnissen interessierter Parteien.“ vgl. \cite{mai2020grundlage}, S.65, 3.1
 \end{quotation}
 
-%Auf ähnliche Weise erläutert \citeauthor{mai2020grundlage} in \citeyear{mai2020grundlage}, was ein QMS ist:
-%
-%\begin{quotation}
-%„Ein Qualitätsmanagementsystem sollte alle Tätigkeiten umfassen, die dem Unternehmen ermöglichen, Ziele zu ermitteln und Prozesse sowie Ressourcen zu bestimmen, die zum Erreichen der Ziele notwendig sind. Das Qualitätsmanagementsystem ist eine strategische Entscheidung, Prozesse und Ressourcen wirksam und effizient zu lenken, um hieraus kurz-, mittel- und langfristige Erfolge zu verwirklichen und umzusetzen.“ \cite{mai2020grundlage}
-%\end{quotation}
+In diesem Sinne hilft ein QMS, die Aktivitäten einer Organisation zu koordinieren, um die Anforderungen von Kunden und Behörden zu erfüllen sowie ihre Wirksamkeit und Rentabilität stetig zu verbessern. Dies soll zu einer dauerhaften Verbesserung der Unternehmensleistung führen.
+\\
 
-In diesem Sinne hilft ein QMS, die Aktivitäten einer Organisation zu koordinieren und zu steuern, um die Anforderungen von Kunden und Behörden zu erfüllen sowie ihre Wirksamkeit und Rentabilität kontinuierlich zu verbessern. Dies führt zu einer dauerhaften Verbesserung der Unternehmensleistung.
+Bei der Einführung muss das QMS gezielt auf das Produkt oder die erbrachte Dienstleistung zugeschnitten sein, d. h. es ist wichtig, dass es den Anforderungen des Betriebs gerecht wird. Um jedoch eine korrekte Umsetzung zu gewährleisten, gibt es einige allgemeine Richtlinien etwa in Form der ISO 9001:2015 \cite{normungsinstitut2009qualitatsmanagementsysteme}, die helfen sollen, die Implementierung eines QMS zu standardisieren. 
+
+ 
 
 \subsection{Die Grundsätze des QMS}
 
-Die Grundsätze des QMS sind in der DIN EN ISO 9000 beschrieben. Diese Grundsätze müssen bei der Einführung und Anwendung eines QMS im Unternehmen berücksichtigt werden, damit die Anforderungen der DIN EN ISO 9001 erfüllt werden können. Die sieben Grundsätze des Qualitätsmanagements \cite{mai2020grundlage} sind:
+Das am weitesten verbreitete Modell ist ein QMS, dessen Anforderungen
+und Empfehlungen in der internationalen Norm ISO 9000 beschrieben sind \cite{sytko2017instrumentation}. Diese Grundsätze müssen bei der Einführung eines QMS berücksichtigt werden, damit die Anforderungen der DIN ISO 9001 erfüllt werden können. Die sieben Grundsätze des Qualitätsmanagements \cite{brugger2016din} sind:
+
 
 \begin{enumerate}
-
-\item Kundenorientierung (Customer focus) \\
-Der Kunde bestimmt die Anforderungen an die Produkte und Leistungen des
-Unternehmens. D. h. Der nachhaltige Erfolg ist von der Zufriedenheit und
-dem Vertrauen des Kunden abhängt.
+\item Kundenorientierung (Customer focus) 
+\\
+Im Prinzip ist ein Produkt (oder eine Dienstleistung) ein Angebot an Kunden, die einen bestimmten Wunsch haben, und daher sollte das Produkt diesen Wunsch erfüllen. D.h. der Erfolg des Produkts ist an die Zufriedenheit des Kunden gebunden.
 
 \item Führung (Leadership) \\
-Wenn ein bestimmtes Thema im Unternehmen umgesetzt werden soll, müssen die Führungskräfte Vorreiter in diesem Thema sein und die
-Voraussetzungen dafür schaffen, dass die Kundenanforderungen umgesetzt werden können.
+Führungskräfte sollten aktiv in die Umsetzung eines Ziels eingreifen und nicht nur in die Planung. Damit soll sichergestellt werden, dass die Planung konsequent durchgeführt wird.
 
 \item Einbeziehung von Personen (Engagement) \\
-Eine ausführliche Information über den Grund von neuen Regelungen ist eine Mindestvoraussetzung. Wenn Mitarbeiter eine Regelung vorgesetzt bekommen und ihnen diese nicht sinnvoll erscheint, wird diese neue Regelung nicht gerne umgesetzt.
+Die Mitarbeiter sollten die Sinnhaftigkeit der neuen Vorschriften begreifen. Andernfalls werden sie diese Vorschriften nicht umsetzen, wenn sie ihnen sinnlos erscheinen.
 
 \item Prozessorientierter Ansatz (Process) \\
-Jeder Prozess muss geplant, gesteuert, überwacht und verbessert werden.
+Wertschaffung ist nur möglich, wenn Prozesse kooperativ ablaufen können. Die Prozesse sollten daher durch Steuerung und Überwachung konsequent verbessert werden.
 
 \item Verbesserung (Improvement) \\
-Ein wesentliches Ziel im Qualitätsmanagement ist einerseits die ständige Verbesserung der Produkte, andererseits der Organisation des Unternehmens. 
+Beim Qualitätsmanagement geht es nicht nur um die Verbesserung der Produktion, sondern auch der Organisation in einem Unternehmen.
 
 \item Faktengestützte Entscheidungsfindung (Evidence) \\
-Aufgrund des Mangels an Daten werden viele Entscheidungen von Führungskräften intuitiv getroffen. Damit mehr dieser Entscheidungen auf einer soliden Grundlage stehen, sollen im Vorfeld grundlegende Daten ermittelt werden. 
+Entscheidungen von Führungskräften sollen eine logische Grundlage haben und nicht der Intuition folgen. Daher sollten im Vorfeld genügend Daten gesammelt werden.
 
 \item Beziehungsmanagement (Relationship management) \\
-Die interessierten Parteien beeinflussen die Unternehmensleistung. Je besser das Beziehungsmanagement ist, desto besser können die einzelnen Ansprüche gegeneinander abgewägt werden. Dies führt zu mehr Erfolg.
+Die Unternehmensleistung hängt von der Beziehung zwischen den interessierten Parteien ab. Daher sollte diese Beziehung gepflegt werden, um eine bessere Zusammenarbeit zu erreichen. Wenn die Kooperation zwischen den einzelnen Parteien zunimmt, sollte sich dadurch auch die Gesamtleistung des Unternehmens erhöhen.
 \end{enumerate}
 
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=.5\textwidth]{img/qms_iso9001.jpg}
-	\caption{Die sieben Grundsätze des QMS}
-\label{fig:qms_principles}
-\end{figure}
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=.5\textwidth]{img/qms_iso9001.jpg}
+%	\caption{Die sieben Grundsätze des QMS}
+%\label{fig:qms_principles}
+%\end{figure}
 
 %\begin{figure}
 %\includegraphics[scale=0.6]{} 
@@ -181,6 +176,7 @@ Die interessierten Parteien beeinflussen die Unternehmensleistung. Je besser das
 %\end{figure}
 
 
+\textcolor{red}{Reparaphrase!!}
 
 \subsection{Warum digitale QMS?}
 Das traditionelle QMS ist die Grundlage für ein digitales QMS, jedoch durch Redundanz charakterisiert. Digitale QMS arbeitet in die Gegenrichtung, da es darauf ausgerichtet ist, Redundanz zu vermeiden \cite{ibrahim2019digital}. Digitale QMS unterstützen den abteilungsübergreifenden Datenfluss in einer Organisation auf automatisierte Weise und verringern die Notwendigkeit manueller Übertragungen, die anfällig für menschliche Fehler und zeitaufwändig sind. Digitale QMS ersetzen papiergestützte QMS, da sie auf Echtzeit-Messungen und Feedback-Mechanismen beruhen, die eine zeitnahe Reaktion auf Ausfälle und Fehler ermöglichen. \cite{yeung2003empirical}
